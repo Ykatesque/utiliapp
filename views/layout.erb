@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>UtiliApp</title>
+
+
+<link href="normalize.css" rel="stylesheet">
+ <link href="bootstrap.css" rel="stylesheet">
+ <link href="style.css" rel="stylesheet">
+
+
+</head>
+<body>
+	<div class="container">
+
+	<h1 class ="text-center"> UtiliApp</h1>
+<div class="row">
+  <div class="centered-pills">
+		<ul class="nav nav-pills center">
+				
+
+			<%= '<li><a href="/">Home</a></li>' unless @home == true %>
+			<li><a href="/stocks">Stocks</a></li>
+			<li><a href="/movies">Movies</a></li>
+			<li><a href="/images">ImageSearch</a></li>
+
+
+
+
+			</ul>
+	
+  </div>
+</div>
+
+<%= yield %>
+
+</div>
+
+<footer>
+<p class ="text-center muted">
+This is my footer.
+</p>	
+</footer>
+
+</body>
+
+</html>

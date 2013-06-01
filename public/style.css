@@ -1,0 +1,49 @@
+
+
+body {
+
+
+background: #d0e4f7; /* Old browsers */
+background-image: url('diamond_upholstery.png')
+}
+
+
+ul{
+	list-style-type: square;
+}
+
+.container {
+width: 600px;
+margin:auto;
+ -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 12px  20px 0 rgba(0,0,0,.1);
+           -moz-box-shadow: 12px  20px 0 rgba(0,0,0,.1);
+                box-shadow: 12px  20px 0 rgba(0,0,0,.1);
+padding: 30px;
+
+margin-top: 20px;
+margin-bottom: 20px;
+padding-bottom: 10px;
+background-color: white;
+}
+
+h4{
+	padding-bottom: 40px;
+}
+
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; }
+
+
+.containcenter {
+    text-align:center;
+}
+
+
+
